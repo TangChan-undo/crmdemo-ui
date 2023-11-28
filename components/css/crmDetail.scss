@@ -1,0 +1,62 @@
+.detail-head {
+  background-color: rgb(250, 251, 252);
+  border: none;
+  border-radius: 4px 4px 0 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.detail-card {
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.item-label {
+  color: #42526e;
+  margin-right: 12px;
+  white-space: nowrap;
+  text-align: right;
+  flex: 0 0 100px; /* 保证标签宽度固定 */
+}
+
+.item-value {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: grey;
+  min-height: 32px;
+  line-height: 32px;
+  background-color: #ebecf0;
+  border: 2px solid #dfe1e6;
+  border-radius: 3px;
+  align-items: stretch;
+  padding: 0px 6px;
+  color: #172b4d;
+}
+.item_son {
+  display: flex;
+  .item_sonLabel {
+    flex: 0 0 100px; /* 保证标签宽度固定 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .item_sonValue {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
